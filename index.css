@@ -166,12 +166,16 @@ body {
 }
 .body-banner-word h2 {
     font-size: 25px;
+    line-height: 25px;
+    padding-top: 30px;
     font-weight: normal;
     text-align: center;
 }
 
 .body-banner-word h5 {
     text-align: center;
+    line-height: 25px;
+    padding-top: 30px;
 }
 
 .body-banner-word a {
