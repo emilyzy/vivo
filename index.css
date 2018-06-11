@@ -75,7 +75,7 @@ body {
     width: 100%;
     text-align: center;
     height: 30px;
-    background: yellow url("img/bg-guarantees_1b2dc72.png") no-repeat 690px;
+    background: url("img/bg-guarantees_1b2dc72.png") no-repeat 690px;
     background-size: 500px 40px;
     padding: 10px 0;
 }
@@ -84,10 +84,10 @@ body {
     line-height: 31px;
     font-size: 14px;
     text-decoration: none;
-    padding-left: 53px;
-    color: rgba(0, 0, 0, 1);
+    padding-left: 58px;
+    color: rgba(0, 0, 0, 0);
 }
-
+/*第三部分*/
 .third-banner {
     width: 1200px;
     height: 550px;
