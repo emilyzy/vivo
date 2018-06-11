@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(208, 209, 208, 0.34);
+    /*background-color: rgba(208, 209, 208, 0.34);*/
+    background-color: #f7f7f5;
 }
 
 .container {
@@ -57,35 +58,66 @@ body {
     height: 30px;
     padding-left: 50px;
 }
-
 .second-banner .second-banner-top {
     width: 500px;
     height: 150px;
     margin: 0 auto;
 }
-
 .second-banner-top img {
     width: 500px;
     height: 70px;
     padding-top: 50px;
 }
-
-.second-banner-bottom {
-    /* width: 1841px;*/
-    width: 100%;
-    text-align: center;
-    height: 30px;
-    background: url("img/bg-guarantees_1b2dc72.png") no-repeat 690px;
-    background-size: 500px 40px;
-    padding: 10px 0;
+.second-banner-bottom{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
 }
-
-.second-banner-bottom a {
-    line-height: 31px;
-    font-size: 14px;
+.second-banner-bottom-center{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    right: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-banner-bottom-right{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.center-code{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    color: #6c7880;
     text-decoration: none;
-    padding-left: 58px;
-    color: rgba(0, 0, 0, 0);
+}
+.second-banner-bottom img{
+    width: 17px;
+    height: 18px;
+    padding-top: 19px;
+    padding-right: 5px;
+}
+.center-code p{
+    line-height: 30px;
+    font-size: 13px;
+}
+.right-code{
+    text-decoration: none;
+    display: flex;
+    width: 90px;
+    height: 60px;
+}
+.right-code p{
+    line-height: 27px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #636363;
 }
 /*第三部分*/
 .third-banner {
@@ -98,10 +130,13 @@ body {
     width: 1200px;
     height: 400px;
 }
-
+.third-banner-bottom{
+    display: flex;
+    justify-content: space-between;
+}
 .third-banner-bottom img {
     width: 290px;
-    height: 150px;
+    height: 140px;
     padding-top: 10px;
     /*float: left;*/
     /*border: 1px solid #000;*/
@@ -109,27 +144,34 @@ body {
 
 .phone-body-one {
     width: 1200px;
-    height: 700px;
+    height: 650px;
 }
-
+/*主体部分*/
 .body-banner-word {
     width: 1200px;
     height: 100px;
     display: flex;
+    position: relative;
 }
 
 .body-banner-word .body-banner-word-item {
-    width: 600px;
+    width: 200px;
+    position: absolute;
+    right: 500px;
 }
-
+.body-banner-word .body-banner-more-item{
+    width: 100px;
+    position: absolute;
+    right: 0px;
+}
 .body-banner-word h2 {
     font-size: 25px;
     font-weight: normal;
-    text-align: right;
+    text-align: center;
 }
 
 .body-banner-word h5 {
-    text-align: right;
+    text-align: center;
 }
 
 .body-banner-word a {
@@ -140,16 +182,18 @@ body {
 .body-banner-pic {
     width: 1200px;
     height: 550px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .body-banner-pic-item {
     width: 390px;
-    height: 100%;
+    height: 550px;
     background-color: #ffffff;
 }
 
 .body-banner-pic-item img {
-    padding-left: 80px;
+    padding-left: 75px;
     padding-top: 40px;
     width: 230px;
     height: 230px;
@@ -179,40 +223,44 @@ body {
     width: 1200px;
     height: 700px;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.body-banner-item:nth-child(1) {
+.body-banner-item {
     width: 590px;
-    height: 400px;
+    height: 390px;
     margin: 5px;
 }
 
-.body-banner-item:nth-child(1) img {
+.body-banner-item img {
     width: 590px;
-    height: 350px;
+    height: 370px;
 }
 
-.body-banner-item:nth-child(2) {
+.body-banner-item-small {
     width: 290px;
-    height: 350px;
+    height: 370px;
     margin: 5px;
     background-color: #ffffff;
 }
 
-.body-banner-item:nth-child(2) img {
-    width: 200px;
-    height: 200px;
-    padding: 5px 45px;
+.body-banner-item-small img {
+    width: 160px;
+    height: 160px;
+    padding: 25px 65px;
 }
 
-.body-banner-item:nth-child(2) h4, h6 {
+.body-banner-item-small h4, h6 {
     text-align: center;
     line-height: 6px;
+    font-weight: normal;
 }
 
-.body-banner-item:nth-child(2) h5 {
+.body-banner-item-small h5 {
     text-align: center;
     color: red;
+    font-size: 17px;
+    font-weight: normal;
 }
 
 
